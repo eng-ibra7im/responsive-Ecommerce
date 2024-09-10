@@ -1,0 +1,10 @@
+.review-info {
+    transition: 0.2s all linear;
+    cursor: pointer;
+    &:hover {
+        transform: translateY(-15px);
+    }
+    .stars {
+        color: #666;
+    }
+}

@@ -1,0 +1,16 @@
+.footer {
+    margin-top: 6rem !important;
+}
+.social {
+    i{
+    background: #E3E6F3;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s all linear;
+   &:hover{
+    background-color: #1a1a1a;
+     color: #E3E6F3;
+  }
+}
+}

@@ -1,0 +1,202 @@
+.navbar {
+  background: #fff;
+}
+
+.navbar-brand h1 {
+  color: #333;
+}
+.navbar-brand h1 span {
+  color: #666;
+}
+
+.nav-item .nav-link {
+  font-size: 22px;
+  font-weight: 600;
+  color: #666 !important;
+}
+.nav-item .nav-link:hover, .nav-item .nav-link.active {
+  color: pink !important;
+}
+
+.icons i {
+  color: #666;
+  cursor: pointer;
+}
+.icons i:hover {
+  color: #ee8d8d;
+}
+
+.footer {
+  margin-top: 6rem !important;
+}
+
+.social i {
+  background: #E3E6F3;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s all linear;
+}
+.social i:hover {
+  background-color: #1a1a1a;
+  color: #E3E6F3;
+}
+
+.home-body {
+  background-image: url(../../../imgs/fec306ac7ad9ede3b6bc3f3c185922c3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 10%;
+  height: 90vh;
+  width: 100%;
+  padding: 0 80px;
+}
+
+.home-text h1 {
+  color: #333;
+  font-size: 3rem !important;
+}
+.home-text h5 {
+  font-size: 2rem !important;
+  color: pink;
+}
+.home-text p {
+  color: #666;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+.home-text .btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  background: #333;
+  border-radius: 3rem;
+  padding: 8px 40px;
+  transition: 0.2s all linear;
+}
+.home-text .btn:hover {
+  background: #ee8d8d;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background: #E3E6F3;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 0.5rem;
+  background: #088178;
+  border-radius: 5rem;
+}
+
+.text h1 {
+  color: #666;
+}
+.text h1 span {
+  color: #333;
+}
+
+.about-vid {
+  background: #fff;
+  position: relative;
+}
+.about-vid video {
+  padding: 15px 5px;
+}
+.about-vid h3 {
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 2%;
+  background: #fff;
+  width: 96%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.about-text .btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  background: #333;
+  border-radius: 3rem;
+  padding: 8px 40px;
+  transition: 0.2s all linear;
+}
+.about-text .btn:hover {
+  background: #ee8d8d;
+}
+
+.about-icon {
+  background: #eee;
+  height: 40vh;
+  margin-top: 5rem;
+}
+.about-icon .about-text {
+  color: rgb(113, 89, 93);
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s all linear;
+}
+.about-icon .about-text:hover {
+  transform: translateY(-10px);
+}
+
+.card {
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s all linear;
+}
+.card .dis {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  background: #eee;
+  font-weight: 600;
+  font-size: 20px;
+  color: #666;
+  padding: 5px 10px;
+  border-top-right-radius: 1rem;
+}
+.card:hover {
+  transform: translateY(-15px);
+}
+
+.card-body {
+  position: relative;
+}
+.card-body h3 {
+  color: #666;
+}
+.card-body span {
+  color: #ee8d8d;
+}
+
+.review-info {
+  transition: 0.2s all linear;
+  cursor: pointer;
+}
+.review-info:hover {
+  transform: translateY(-15px);
+}
+.review-info .stars {
+  color: #666;
+}
+
+.btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  background: #333;
+  border-radius: 3rem;
+  padding: 8px 40px;
+  transition: 0.2s all linear;
+}
+.btn:hover {
+  background: #ee8d8d;
+}/*# sourceMappingURL=main.css.map */
